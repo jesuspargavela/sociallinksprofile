@@ -27,7 +27,12 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--gray800);
-  max-width: 22rem;
+  color: var(--white);
+  max-width: 25rem;
+}
+
+.address {
+  color: var(--primary-yellow);
 }
 
 .list-item {
