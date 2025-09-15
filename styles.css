@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-yellow: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --gray700: hsl(0, 0%, 20%);
+  --gray800: hsl(0, 0%, 12%);
+  --gray900: hsl(0, 0%, 8%);
+}
+
+body {
+  background-color: var(--gray900);
+  font-family: "Inter", "sans serif";
+}
+
+.container {
+    
+}
