@@ -15,8 +15,35 @@
 body {
   background-color: var(--gray900);
   font-family: "Inter", "sans serif";
+  font-size: 14px;
 }
 
 .container {
-    
+  padding: 2rem;
+  margin: 10rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--gray800);
+  max-width: 21rem;
+}
+
+.list-item {
+  text-align: center;
+  border: 1px solid var(--gray700);
+  list-style-type: none;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.list-item:hover {
+  background-color: var(--primary-yellow);
+}
+
+.list-item:hover a {
+  color: var(--gray900);
 }
