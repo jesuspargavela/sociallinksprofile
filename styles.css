@@ -35,6 +35,10 @@ body {
   color: var(--primary-yellow);
 }
 
+.social-links-list {
+  width: 100%;
+}
+
 .list-item {
   border-radius: 5px;
   padding: 0.5rem;
